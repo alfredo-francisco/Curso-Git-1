@@ -1,0 +1,15 @@
+testando os comandos de iniciazação de um repositorio no github 
+
+git status: permite saber oque foi alterado ou adicionado nos arquivos
+
+Arquivos em amarelo com o simbolo M significam Modificaded, arquivo modificado
+
+Arquivos em verde com o simbolo U significa Untracked(não monitorado), ou seja arquivos novos que não estão sendo monitorados pelo github
+
+Para adicionar os arquivos no repositorio utilizamos o comando git add <name file>, caso 
+tenha varios arquivos a serem enviados utilizamos o comando git add . (ponto) para adicionar tudo de uma vez só
+
+Para salvar os arquivos modificados ou criados utilizamos o comando git commit <nome do arquivo>, ou para
+comitar varios arquivos de uma vez utilizamos o comando git commit -a 
+O ideal para cada commit é enviar junto uma mensagem explicando oque esta sendo comitado e isso é feito pela flag -m
+ao final o mando fica: git commit <namefile> -m"Enviado o arquivo com a seguinte funcionalidade adicionada..."
