@@ -15,3 +15,5 @@ O ideal para cada commit é enviar junto uma mensagem explicando oque esta sendo
 ao final o mando fica: git commit <namefile> -m"Enviado o arquivo com a seguinte funcionalidade adicionada..."
 
 Para atualizar o repo, enviar tudo ao github, utilizamos o comando git push.
+
+Para atualizar o arquivo local com o arquivo principal do gitHub utilizamos o comando git pull
