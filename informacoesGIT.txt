@@ -23,3 +23,6 @@ Ocorre quando entramos em algum projeto ja existente. É importante notar que ao
 que o clone deve ser colocado no diretorio atual
 
 Para remover/deletar algum arquivo utiliza-se o comando rm: git rm <name file>
+
+O comando git log é utilizado para ver o historico de todos os commits realizados no projeto, esse historico
+é apresentado de forma decrescentes
