@@ -18,5 +18,6 @@ Para atualizar o repo, enviar tudo ao github, utilizamos o comando git push.
 
 Para atualizar o arquivo local com o arquivo principal do gitHub utilizamos o comando git pull
 
-Para clonar algum repo utilizamos o comando git clone <endereço url do repo a ser clonado>. Ocorre quando 
-entramos em algum projeto ja existente.
+Para clonar algum repo utilizamos o comando git clone <endereço url do repo a ser clonado>. (ponto ao final)
+Ocorre quando entramos em algum projeto ja existente. É importante notar que ao final da url devemos colocar o ponto para indicar
+que o clone deve ser colocado no diretorio atual
