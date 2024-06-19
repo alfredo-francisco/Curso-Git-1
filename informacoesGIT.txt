@@ -21,3 +21,5 @@ Para atualizar o arquivo local com o arquivo principal do gitHub utilizamos o co
 Para clonar algum repo utilizamos o comando git clone <endereço url do repo a ser clonado>. (ponto ao final)
 Ocorre quando entramos em algum projeto ja existente. É importante notar que ao final da url devemos colocar o ponto para indicar
 que o clone deve ser colocado no diretorio atual
+
+Para remover/deletar algum arquivo utiliza-se o comando rm: git rm <name file>
