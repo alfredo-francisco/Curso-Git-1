@@ -25,4 +25,4 @@ que o clone deve ser colocado no diretorio atual
 Para remover/deletar algum arquivo utiliza-se o comando rm: git rm <name file>
 
 O comando git log é utilizado para ver o historico de todos os commits realizados no projeto, esse historico
-é apresentado de forma decrescentes
+é apresentado de forma decrescentes. Para ejetar e voltar a linha de codigo utiliza-se a tecla Q.
