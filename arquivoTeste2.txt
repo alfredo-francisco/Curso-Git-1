@@ -1,1 +1,3 @@
-Teste 2, modificando
+Teste 2
+
+Atualizando o arquivo clone
