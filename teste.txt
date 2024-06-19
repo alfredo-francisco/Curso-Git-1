@@ -13,3 +13,5 @@ Para salvar os arquivos modificados ou criados utilizamos o comando git commit <
 comitar varios arquivos de uma vez utilizamos o comando git commit -a 
 O ideal para cada commit é enviar junto uma mensagem explicando oque esta sendo comitado e isso é feito pela flag -m
 ao final o mando fica: git commit <namefile> -m"Enviado o arquivo com a seguinte funcionalidade adicionada..."
+
+Para atualizar o repo, enviar tudo ao github, utilizamos o comando git push.
