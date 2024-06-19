@@ -17,3 +17,6 @@ ao final o mando fica: git commit <namefile> -m"Enviado o arquivo com a seguinte
 Para atualizar o repo, enviar tudo ao github, utilizamos o comando git push.
 
 Para atualizar o arquivo local com o arquivo principal do gitHub utilizamos o comando git pull
+
+Para clonar algum repo utilizamos o comando git clone <endereço url do repo a ser clonado>. Ocorre quando 
+entramos em algum projeto ja existente.
