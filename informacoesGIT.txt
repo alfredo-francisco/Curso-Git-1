@@ -28,3 +28,6 @@ O comando git log é utilizado para ver o historico de todos os commits realizad
 é apresentado de forma decrescentes. Para ejetar e voltar a linha de codigo utiliza-se a tecla Q.
 
 Para renomear ou mover uma pasta basta utilizar o comando: git mv <arquivo a ser movido ou renomeado> <local para onde vai ser movido ou novo nome> 
+
+Para voltar um arquivo para seu estado inicial, antes de qualquer alteração, utiliza-se o comando 
+git checkout <name file>. Com esse comando podemos fazer o arquivo voltar ao estado igual ao do repositorio
