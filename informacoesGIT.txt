@@ -31,3 +31,7 @@ Para renomear ou mover uma pasta basta utilizar o comando: git mv <arquivo a ser
 
 Para voltar um arquivo para seu estado inicial, antes de qualquer alteração, utiliza-se o comando 
 git checkout <name file>. Com esse comando podemos fazer o arquivo voltar ao estado igual ao do repositorio
+
+Para ignorar algum arquivo utilizamos o .gitignore, essa é uma pasta que utilizamos para informar
+que o arquivo não deve ser enviado ao repositorio do git. Normalmente arquivos sensiveis ou que podem ser
+instalados depois estão nessa pasta. Basta criar a pasta .gitignore e adicionar dentro dela o nome do arquivo a ser ignorado
