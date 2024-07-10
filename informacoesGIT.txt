@@ -55,6 +55,9 @@ Para alternar entre as branch utiliza-se o comando git checkout -b <name of bran
 e criar uma branch com o comando git checkout <name of branch> . Deve-se tomar cuidado
 pois ao mudar de branch e não realizar o commit da atual, as mudanças são propagadas para a proxima branch a ser aberta
 
+Para acessar as branchs locais e remotas utilizamos: git branch -a
+Para acessar somente as locais basta: git branch
+
 Para unir branchs utilizamos o comando git marge <branch name>
 
 O comando git stash é utilizado para resetar uma branch. O arquivo em si não é perdido, ele vai para uma
@@ -74,3 +77,7 @@ Para ver as mudanças em uma tag utiliza-se git show <tag name>
 
 Para enviar as tags ao repo utiliza-se o comando git push origin <tag name>, ou
 para enviar tudo de uma vez usamos git push origin --tag
+
+--------------------Compartilhamento e Atualização de repositorio---------------------------------
+
+Para acessar alguma branch REMOTA enviada ao master por algum colega de time, utiliza-se o comando: git fetch
