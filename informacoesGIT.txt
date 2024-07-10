@@ -80,4 +80,5 @@ para enviar tudo de uma vez usamos git push origin --tag
 
 --------------------Compartilhamento e Atualização de repositorio---------------------------------
 
-Para acessar alguma branch REMOTA enviada ao master por algum colega de time, utiliza-se o comando: git fetch
+Para acessar alguma branch REMOTA enviada ao master por algum colega de time, utiliza-se o comando: git fetch -a
+dessa forma buscamos todos os branchs remotos, e em seguida basta dar git checkout <name branch> para acessar o branch
