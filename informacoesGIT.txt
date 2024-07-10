@@ -12,13 +12,14 @@ tenha varios arquivos a serem enviados utilizamos o comando git add . (ponto) pa
 Para salvar os arquivos modificados ou criados utilizamos o comando git commit <nome do arquivo>, ou para
 comitar varios arquivos de uma vez utilizamos o comando git commit -a 
 O ideal para cada commit é enviar junto uma mensagem explicando oque esta sendo comitado e isso é feito pela flag -m
-ao final o mando fica: git commit <namefile> -m"Enviado o arquivo com a seguinte funcionalidade adicionada..."
+ao final o comando fica: git commit <namefile> -m"Enviado o arquivo com a seguinte funcionalidade adicionada..."
 
 Para atualizar o repo, enviar tudo ao github, utilizamos o comando git push.
 
 Para atualizar o arquivo local com o arquivo principal do gitHub utilizamos o comando git pull
 
-Para clonar algum repo utilizamos o comando git clone <endereço url do repo a ser clonado>. (ponto ao final)
+Para clonar algum repo utilizamos o comando git clone <endereço url do repo a ser clonado>. (ponto ao final) o ponto indica 
+que o clone deve ser feito no local indicado pelo terminal
 Ocorre quando entramos em algum projeto ja existente. É importante notar que ao final da url devemos colocar o ponto para indicar
 que o clone deve ser colocado no diretorio atual
 
@@ -39,3 +40,35 @@ instalados depois estão nessa pasta. Basta criar a pasta .gitignore e adicionar
 Para resetar uma branch a algum estado passado, Normalmente no estado da branch origin/master, utiliza-se o comando
 git reset --hard <nome do arquivo ao qual queremos retornar o atual>. Esse comando desfaz os commits realizados e quais quer outras 
 alterações antes do git push final
+
+As branchs são utilizadas para criar ramificações do codigo principal para tratar bugs, ou criar novas funcionalidades
+separadamente de forma que ao final é possivel intergrar tudo ao repo da produção
+
+Para criar uma branch, ramificação utilizamos o comando git branch <name file>, e para verificar as 
+branchs criadas utiliza-se git branch
+
+Para deletar branch utiliza-se a flag -d ou --delete, o codigo fica : git branch -d <name file> 
+
+Para alternar entre as branch utiliza-se o comando git checkout -b <name of branch> para mudar 
+e criar uma branch com o comando git checkout <name of branch> . Deve-se tomar cuidado
+pois ao mudar de branch e não realizar o commit da atual, as mudanças são propagadas para a proxima branch a ser aberta
+
+Para unir branchs utilizamos o comandogit marge <branch name>
+
+O comando git stash é utilizado para resetar uma branch. O arquivo em si não é perdido, ele vai para uma
+especie de lixeira no gitHub e é possivel recupera-lo depois. 
+Para ver quais stash foram feitas utiliza-se o comando git stash list e para recuperar alguma basta utilizar
+git stash apply <number of stash>
+Para visualizar as alterações na stash utiliza-se o comando git stash show -p <number of stash>
+
+Para limpar todas as stash utiliza-se o comando git stash clear, e para remover alguma em especifico 
+git stash frop <number of stash>
+
+Tags podem ser utilizadas como chekpoint de determinados estagios de uma branch, são criadas pelo comando
+git tag -a <name> -m"mensagem"
+Para ver todas as tags basta digitar git tag
+Para entrar em uma tag utiliza-se o comando git checkout <tag name>
+Para ver as mudanças em uma tag utiliza-se git show <tag name>
+
+Para enviar as tags ao repo utiliza-se o comando git push origin <tag name>, ou
+para enviar tudo de uma vez usamos git push origin --tag
