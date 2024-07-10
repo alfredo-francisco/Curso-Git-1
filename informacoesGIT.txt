@@ -41,6 +41,8 @@ Para resetar uma branch a algum estado passado, Normalmente no estado da branch 
 git reset --hard <nome do arquivo ao qual queremos retornar o atual>. Esse comando desfaz os commits realizados e quais quer outras 
 alterações antes do git push final
 
+                                                !!---> Branches<--!!
+
 As branchs são utilizadas para criar ramificações do codigo principal para tratar bugs, ou criar novas funcionalidades
 separadamente de forma que ao final é possivel intergrar tudo ao repo da produção
 
@@ -53,7 +55,7 @@ Para alternar entre as branch utiliza-se o comando git checkout -b <name of bran
 e criar uma branch com o comando git checkout <name of branch> . Deve-se tomar cuidado
 pois ao mudar de branch e não realizar o commit da atual, as mudanças são propagadas para a proxima branch a ser aberta
 
-Para unir branchs utilizamos o comandogit marge <branch name>
+Para unir branchs utilizamos o comando git marge <branch name>
 
 O comando git stash é utilizado para resetar uma branch. O arquivo em si não é perdido, ele vai para uma
 especie de lixeira no gitHub e é possivel recupera-lo depois. 
